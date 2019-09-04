@@ -1,0 +1,31 @@
+<div class="container">
+<div class="card">
+ <div class="card-header">
+     <h3>Clientes</h3>
+ </div>
+ <div class="card-body">
+     <table class="table table-hover">
+    <thead>
+        <tr class="text-center">
+         <th>Nombre</th>
+         <th>Apellido</th>
+         <th>Edad</th>
+         <th>Fecha de nacimiento</th>
+         <th>Fecha posible muerte</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let cliente of clientes" class="text-center">
+        <td>{{cliente.nombre}}</td>
+        <td>{{cliente.apellido}}</td>
+        <td>{{cliente.edad}}</td>
+        <td>{{cliente.fecha_nacimiento}}</td>
+        <td>{{cliente.fecha_posible_muerte}}</td>
+        </tr>
+    </tbody>
+     </table><br>
+     <div>Edad promedio:{{promedio_edad}}</div><br>
+     <div>Desviacion estandar:{{desviacion_estandar}}</div><br>
+ </div>
+</div>
+</div>

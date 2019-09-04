@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/6b8f1e9c-c1a6-4d8f-8ff9-999a4a387482/resourceGroups/DEV/providers/Microsoft.Web/sites/mifarmaweb",
+    "appService.deploySubpath": "dist\\frontend"
+}
